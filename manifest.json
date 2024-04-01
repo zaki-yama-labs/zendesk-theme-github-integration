@@ -1,10 +1,22 @@
 {
   "name": "My Zendesk Theme",
   "author": "Zendesk",
-  "version": "3.2.4",
+  "version": "3.2.5",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
+    {
+      "label": "test_group",
+      "variables": [
+        {
+          "identifier": "test_color",
+          "type": "color",
+          "description": "test_color_description",
+          "label": "test_color_label",
+          "value": "#FFFFFF"
+        }
+      ]
+    },
     {
       "label": "colors_group_label",
       "variables": [
